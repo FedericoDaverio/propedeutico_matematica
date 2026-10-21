@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio 5 · PropeMate</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230A0D12'/%3E%3Cpath d='M2 16 Q8 4 14 16 T26 16' stroke='%236FFFC0' stroke-width='2.4' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="index.html">PropeMate <small>/ Audio Math</small></a>
+    <div class="nav-right">
+      <a class="back-link" href="index.html#temario" data-i18n="backToCourse">← Volver al curso</a>
+      <div class="controls">
+        <button class="ctrl-btn" id="langBtn" type="button" aria-label="Cambiar idioma / Switch language">EN</button>
+        <button class="ctrl-btn" id="themeBtn" type="button" aria-label="Cambiar tema">☾</button>
+      </div>
+    </div>
+  </nav>
+  <div class="page-head">
+    <p class="page-eyebrow" id="topicEyebrow"></p>
+    <h1 class="page-title" id="topicTitle"></h1>
+  </div>
+  <section style="padding-top:8px;">
+    <div id="labContainer"></div>
+    <h3 style="margin-top:32px; font-family:'IBM Plex Mono'; font-size:12px; color:var(--text-dim); letter-spacing:.02em;">EJERCICIOS</h3>
+    <div class="drill" id="drill-0"></div>
+    <div class="drill" id="drill-1"></div>
+    <div class="drill" id="drill-2"></div>
+  </section>
+</div>
+<footer class="wrap">
+  <span data-i18n="footer-note">Material del curso PropeMate, con fines educativos.</span>
+  <a href="https://github.com/FedericoDaverio/PropeMate" target="_blank" rel="noopener">github.com/FedericoDaverio/PropeMate</a>
+</footer>
+<script>var TOPIC_INDEX = 4;</script>
+<script src="assets/data.js"></script>
+<script src="assets/engine.js"></script>
+<script src="assets/labs-engine.js"></script>
+</body>
+</html>
