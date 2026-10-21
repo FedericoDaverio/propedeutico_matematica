@@ -3,7 +3,7 @@ var STR = {
   es: {
     hint: "toca la onda para cambiarla",
     title: "Fundamentos de Matemática para Ingeniería de Audio",
-    lede: "Las herramientas matemáticas detrás de la acústica, el procesamiento digital de señales, la electrónica y el diseño de equipos de audio — de unidades y fracciones a vectores y sistemas lineales.",
+    lede: "Las herramientas matemáticas detrás de la acústica, el procesamiento digital de señales, la electrónica y el diseño de equipos de audio. Desde las unidades y las fracciones hasta los vectores y los sistemas lineales.",
     prof: "<b style=\"color:var(--text)\">Prof. Federico Daverio</b> · daveriofederico@gmail.com",
     "temario-h": "Temario", "temario-sub": "Toca un tema para ver sus contenidos, la presentación, su laboratorio y su examen.",
     "goals-h": "Al finalizar el curso, el estudiante podrá:",
